@@ -4,6 +4,7 @@ import WhatIsKindred from '@/components/WhatIsKindred';
 import HowItWorks from '@/components/HowItWorks';
 import WhySafe from '@/components/WhySafe';
 import WhoFor from '@/components/WhoFor';
+import HowWereDifferent from '@/components/HowWereDifferent';
 import WaitlistForm from '@/components/WaitlistForm';
 import Footer from '@/components/Footer';
 
@@ -17,6 +18,7 @@ export default function Home() {
         <HowItWorks />
         <WhySafe />
         <WhoFor />
+        <HowWereDifferent />
         <WaitlistForm />
       </main>
       <Footer />

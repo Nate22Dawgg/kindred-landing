@@ -28,7 +28,7 @@ export default function Button({
     secondary: "bg-white text-blue-600 border border-blue-600 hover:bg-blue-50",
   };
 
-  const handleClick = useCallback((e) => {
+  const handleClick = useCallback((e: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>) => {
     if (href?.startsWith('#')) {
       e.preventDefault();
       const element = document.querySelector(href);
